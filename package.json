@@ -1,11 +1,12 @@
 {
   "name": "tizenbrew-better-xcloud",
   "appName": "Better xCloud",
-  "version": "6.7.12",
-  "description": "Better xCloud 6.7.12 (redphx) para TizenBrew, sem document-start",
+  "version": "6.7.12-2",
+  "description": "Better xCloud 6.7.12 (redphx) para TizenBrew, com co-op local ligado",
   "packageType": "mods",
   "websiteURL": "https://www.xbox.com/pt-BR/play",
-  "main": "better-xcloud.user.js",
+  "main": "bx-wrapper.js",
+  "serviceFile": "service.js",
   "keys": [],
   "author": "redphx (Better xCloud); empacotamento TizenBrew: marcusvitalesilva-dot",
   "license": "MIT"
