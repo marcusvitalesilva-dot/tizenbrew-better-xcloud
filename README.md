@@ -17,6 +17,13 @@ co-op local (vários controles) ligado por padrão.
   página abriu antes do registro, recarrega uma vez. Também retoma páginas pausadas pelo depurador
   (o login da Microsoft trava sem isso) e reconecta quando a página troca de processo.
 
+## Botão "Co-op local"
+
+O `bx-wrapper.js` também põe um botão **Co-op local** no cabeçalho do xCloud. Ele lista os jogos da lista de
+co-op do Better xCloud que estão no catálogo de nuvem do Game Pass (mercado BR), sem os relatados como não
+funcionando, e abre a página do jogo. Navega por controle (direcional, A abre, B fecha) e pelo controle remoto da TV.
+Código legível em `coop-menu.js`.
+
 Motivo: no TizenBrew 2.0.5, `evaluateScriptOnDocumentStart` não abre o site, e a injeção normal
 chega tarde quando os scripts do Xbox já estão em cache.
 
