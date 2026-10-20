@@ -20,6 +20,6 @@ co-op local (vários controles) ligado por padrão.
 Motivo: no TizenBrew 2.0.5, `evaluateScriptOnDocumentStart` não abre o site, e a injeção normal
 chega tarde quando os scripts do Xbox já estão em cache.
 
-Instalação: TizenBrew → Module Manager → Add GitHub Module → `marcusvitalesilva-dot/tizenbrew-better-xcloud`.
+Instalação: TizenBrew → Module Manager → Add GitHub Module → `marcusvitalesilva-dot/tizenbrew-better-xcloud@<commit>` (fixar o commit evita o cache do jsDelivr).
 
 Licença do Better xCloud: MIT (ver `LICENSE-better-xcloud`). Sem afiliação com Microsoft/Xbox.

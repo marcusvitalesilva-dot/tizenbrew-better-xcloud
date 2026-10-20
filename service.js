@@ -10,7 +10,7 @@ var crypto = require('crypto');
 var fs = require('fs');
 
 var HOST = (typeof process !== 'undefined' && process.env && process.env.BX_HOST) || '127.0.0.1';
-var WRAPPER_URL = 'https://cdn.jsdelivr.net/gh/marcusvitalesilva-dot/tizenbrew-better-xcloud/bx-wrapper.js';
+var WRAPPER_URL = 'https://raw.githubusercontent.com/marcusvitalesilva-dot/tizenbrew-better-xcloud/main/bx-wrapper.js';
 var source = null;
 var busy = false;
 var attachedId = null;
